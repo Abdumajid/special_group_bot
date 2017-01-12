@@ -24,9 +24,9 @@ def show_table(message):
 	day_index = markups.days.index(message.text)
 	day = markups.weekdays[day_index]
 
-	text = day.get_lessons()
+	text = "<b>{0}</b>\n{1}".format(message.text, day.get_lessons())
 
-	bot.send_message(message.chat.id, text = text)
+	bot.send_message(message.chat.id, text = text, parse_mode = 'HTML')
 
 @bot.message_handler(func = lambda message: True)
 def any_text(message):
