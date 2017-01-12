@@ -32,9 +32,9 @@ EMPTY = "-----------------------------"
 
 weekdays = [
 	Day(EMPTY, EMPTY, EMPTY),
-	Day("Elektron hukumat - 117A \xF0\x9F\x9A\xAA\nQuvnakov A \xF0\x9F\x92\xB0", "DTADTKK - 117A \xF0\x9F\x9A\xAA\nBoboyev L"),
-	Day(EMPTY, EMPTY, EMPTY, "Chet tili - Kafedra \xF0\x9F\x9A\xAA\nMiss Diyora"),
-	Day(EMPTY, "OT va L - 03B \xF0\x9F\x9A\xAA\n Ro'ziboyev O", "Tizimli Dasturlash - 117A \xF0\x9F\x9A\xAA\nKarimov D \xF0\x9F\x92\xB0", EMPTY),
-	Day(EMPTY, EMPTY, "Dasturlash tamoyili - 109A \xF0\x9F\x9A\xAA\nMamaraufov O", EMPTY),
-	Day("DTML - 522B \xF0\x9F\x9A\xAA\nKamalov Sh ", EMPTY, "Kompyuter Tarmoqlari - 117A \xF0\x9F\x9A\xAA\nXabirova D")
+	Day("Elektron hukumat - 117A \xF0\x9F\x9A\xAA\nQuvnakov A \xF0\x9F\x92\xB0\n17.01.2017", "DTADTKK - 117A \xF0\x9F\x9A\xAA\nBoboyev L\n24.01.2017"),
+	Day(EMPTY, EMPTY, EMPTY, "Chet tili - Kafedra \xF0\x9F\x9A\xAA\nMiss Diyora\n25.01.2017"),
+	Day(EMPTY, "OT va L - 03B \xF0\x9F\x9A\xAA\n Ro'ziboyev O\n26.01.2017", "Tizimli Dasturlash - 117A \xF0\x9F\x9A\xAA\nKarimov D \xF0\x9F\x92\xB0\n19.01.2017", EMPTY),
+	Day(EMPTY, EMPTY, "Dasturlash tamoyili - 109A \xF0\x9F\x9A\xAA\nMamaraufov O\n20.01.2017", EMPTY),
+	Day("DTML - 522B \xF0\x9F\x9A\xAA\nKamalov Sh\n21.01.2017", EMPTY, "Kompyuter Tarmoqlari - 117A \xF0\x9F\x9A\xAA\nXabirova D\n28.01.2017")
 ]
