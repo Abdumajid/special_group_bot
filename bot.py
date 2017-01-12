@@ -13,6 +13,11 @@ bot = telebot.TeleBot(config.TOKEN)
 def start(message):
 	bot.send_message(message.chat.id, text = "Xush kelibsiz!", reply_markup = markups.time_table_markup)
 
+@bot.message_handler(commands = ['help'])
+def help(message):
+	text = "Welcome!\nPlease use below the menu \xE2\xAC\x87"
+	bot.send_message(message.chat.id, text = text)
+
 
 @bot.message_handler(func = lambda message: message.text in markups.days)
 def show_table(message):
