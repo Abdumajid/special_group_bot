@@ -1,3 +1,0 @@
-gunicorn
-Flask
-pyTelegramBotAPI==2.3.0
