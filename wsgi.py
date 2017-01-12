@@ -17,6 +17,6 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url="https://special-group.herokuapp.com/")
+    bot.set_webhook(url="https://special-group.herokuapp.com/bot")
     return "!", 200
 
