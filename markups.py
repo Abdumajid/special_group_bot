@@ -31,10 +31,35 @@ time_table_markup.add(*weekday_buttons)
 EMPTY = "-----------------------------"
 
 weekdays = [
-	Day(EMPTY, EMPTY, EMPTY),
-	Day("Elektron hukumat - 117A \xF0\x9F\x9A\xAA\nQuvnakov A \xF0\x9F\x92\xB0\n17.01.2017", "DTADTKK - 117A \xF0\x9F\x9A\xAA\nBoboyev L\n24.01.2017"),
-	Day(EMPTY, EMPTY, EMPTY, "Chet tili - Kafedra \xF0\x9F\x9A\xAA\nMiss Diyora\n25.01.2017"),
-	Day(EMPTY, "OT va L - 03B \xF0\x9F\x9A\xAA\n Ro'ziboyev O\n26.01.2017", "Tizimli Dasturlash - 117A \xF0\x9F\x9A\xAA\nKarimov D \xF0\x9F\x92\xB0\n19.01.2017", EMPTY),
-	Day(EMPTY, EMPTY, "Dasturlash tamoyili - 109A \xF0\x9F\x9A\xAA\nMamaraufov O\n20.01.2017", EMPTY),
-	Day("DTML - 522B \xF0\x9F\x9A\xAA\nKamalov Sh\n21.01.2017", EMPTY, "Kompyuter Tarmoqlari - 117A \xF0\x9F\x9A\xAA\nXabirova D\n28.01.2017")
+	Day(
+		"Ma'lumotlar kommunikatsiyasi - Practice\n\xF0\x9F\x95\x90 Time: 10:00\n\xF0\x9F\x9A\xAA Room: 310(D)",
+		"Ma'lumotlar kommunikatsiyasi - Lecture\n\xF0\x9F\x95\x90 Time: 11:30\n\xF0\x9F\x9A\xAA Room: 115"
+	),
+	Day(
+		"Axborot xavfsizligi - Practice\n\xF0\x9F\x95\x90 Time: 13:30\n\xF0\x9F\x9A\xAA Room: 205(D)",
+		"DTADTKK - Lecture\n\xF0\x9F\x95\x90 Time: 15:00\n\xF0\x9F\x9A\xAA Room: 21(B)",
+		"DTADTKK - Practice\n\xF0\x9F\x95\x90 Time: 16:30\n\xF0\x9F\x9A\xAA Room: 21(B)"
+	),
+	Day(
+		"/Ilmiy tadqiqot metodologiyasi - Lecture\n\xF0\x9F\x95\x90 Time: 11:30\n\xF0\x9F\x9A\xAA Room: 310(D)",
+		EMPTY,
+		"WEB ilovalarni ishlab chiqish - Laboratory/Practice\n\xF0\x9F\x95\x90 Time: 15:00\n\xF0\x9F\x9A\xAA Room: 513(B)/515(B)",
+		"Chet tili \n\xF0\x9F\x95\x90 Time: 16:30\n\xF0\x9F\x9A\xAA Room: Har doimgi(kafedra)"
+	),
+	Day(
+		"OYDT - Lecture\n\xF0\x9F\x95\x90 Time: 10:00\n\xF0\x9F\x9A\xAA Room: 21(B)",
+		"OYDT - Practice\n\xF0\x9F\x95\x90 Time: 11:30\n\xF0\x9F\x9A\xAA Room: 520(B)",
+	),
+	Day(
+		"MKUDV - \n\xF0\x9F\x95\x90 Time: 11:30\n\xF0\x9F\x9A\xAA Room: 21(B)",
+		"Chet tili/O'zbekiston Tarixi - Lecture\n\xF0\x9F\x95\x90 Time: 10:00\n\xF0\x9F\x9A\xAA Room: 445",
+		"WEB ilovalarni ishlab chiqish - Lecture\n\xF0\x9F\x95\x90 Time: 15:00\n\xF0\x9F\x9A\xAA Room: 522(B)"
+	),
+	Day(
+		"Axborot xavfsizligi - Lecture\n\xF0\x9F\x95\x90 Time: 13:30\n\xF0\x9F\x9A\xAA Room: 117",
+		"TT va T - (Laboratory/Lecture)\n\xF0\x9F\x95\x90 Time: 15:00\n\xF0\x9F\x9A\xAA Room: 01(B)/518(B)",
+		"TT va T - (Practive)\n\xF0\x9F\x95\x90 Time: 16:30\n\xF0\x9F\x9A\xAA Room: 01(B)/518(B)",
+		
+	
+	)
 ]
