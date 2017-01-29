@@ -32,33 +32,33 @@ EMPTY = "-----------------------------"
 
 weekdays = [
 	Day(
-		"Ma'lumotlar kommunikatsiyasi - Practice\n\xF0\x9F\x95\x90 Time: 10:00\n\xF0\x9F\x9A\xAA Room: 310(D)",
-		"Ma'lumotlar kommunikatsiyasi - Lecture\n\xF0\x9F\x95\x90 Time: 11:30\n\xF0\x9F\x9A\xAA Room: 115"
+		"Ma'lumotlar kommunikatsiyasi - Mashq\n\xF0\x9F\x95\x90 10:00\n\xF0\x9F\x9A\xAA 310(D)",
+		"Ma'lumotlar kommunikatsiyasi - Ma'ruza\n\xF0\x9F\x95\x90 11:30\n\xF0\x9F\x9A\xAA 115"
 	),
 	Day(
-		"Axborot xavfsizligi - Practice\n\xF0\x9F\x95\x90 Time: 13:30\n\xF0\x9F\x9A\xAA Room: 205(D)",
-		"DTADTKK - Lecture\n\xF0\x9F\x95\x90 Time: 15:00\n\xF0\x9F\x9A\xAA Room: 21(B)",
-		"DTADTKK - Practice\n\xF0\x9F\x95\x90 Time: 16:30\n\xF0\x9F\x9A\xAA Room: 21(B)"
+		"Axborot xavfsizligi - Mashq\n\xF0\x9F\x95\x90 13:30\n\xF0\x9F\x9A\xAA 205(D)",
+		"DTADTKK - Ma'ruza\n\xF0\x9F\x95\x90 15:00\n\xF0\x9F\x9A\xAA 21(B)",
+		"DTADTKK - Mashq\n\xF0\x9F\x95\x90 16:30\n\xF0\x9F\x9A\xAA 21(B)"
 	),
 	Day(
-		"/Ilmiy tadqiqot metodologiyasi - Lecture\n\xF0\x9F\x95\x90 Time: 11:30\n\xF0\x9F\x9A\xAA Room: 310(D)",
+		"/Ilmiy tadqiqot metodologiyasi - Ma'ruza\n\xF0\x9F\x95\x90 11:30\n\xF0\x9F\x9A\xAA 310(D)",
 		EMPTY,
-		"WEB ilovalarni ishlab chiqish - Laboratory/Practice\n\xF0\x9F\x95\x90 Time: 15:00\n\xF0\x9F\x9A\xAA Room: 513(B)/515(B)",
-		"Chet tili \n\xF0\x9F\x95\x90 Time: 16:30\n\xF0\x9F\x9A\xAA Room: Har doimgi(kafedra)"
+		"WEB ilovalarni ishlab chiqish - Laboratoriya/Mashq\n\xF0\x9F\x95\x90 15:00\n\xF0\x9F\x9A\xAA 513(B)/515(B)",
+		"Chet tili \n\xF0\x9F\x95\x90 16:30\n\xF0\x9F\x9A\xAA Kafedra"
 	),
 	Day(
-		"OYDT - Lecture\n\xF0\x9F\x95\x90 Time: 10:00\n\xF0\x9F\x9A\xAA Room: 21(B)",
-		"OYDT - Practice\n\xF0\x9F\x95\x90 Time: 11:30\n\xF0\x9F\x9A\xAA Room: 520(B)",
+		"OYDT - Ma'ruza\n\xF0\x9F\x95\x90 10:00\n\xF0\x9F\x9A\xAA 21(B)",
+		"OYDT - Mashq\n\xF0\x9F\x95\x90 11:30\n\xF0\x9F\x9A\xAA 520(B)",
 	),
 	Day(
-		"MKUDV - \n\xF0\x9F\x95\x90 Time: 11:30\n\xF0\x9F\x9A\xAA Room: 21(B)",
-		"Chet tili/O'zbekiston Tarixi - Lecture\n\xF0\x9F\x95\x90 Time: 10:00\n\xF0\x9F\x9A\xAA Room: 445",
-		"WEB ilovalarni ishlab chiqish - Lecture\n\xF0\x9F\x95\x90 Time: 15:00\n\xF0\x9F\x9A\xAA Room: 522(B)"
+		"MKUDV - \n\xF0\x9F\x95\x90 11:30\n\xF0\x9F\x9A\xAA 21(B)",
+		"Chet tili/O'zbekiston Tarixi - /Ma'ruza\n\xF0\x9F\x95\x90 10:00\n\xF0\x9F\x9A\xAA 445",
+		"WEB ilovalarni ishlab chiqish - Ma'ruza\n\xF0\x9F\x95\x90 15:00\n\xF0\x9F\x9A\xAA 522(B)"
 	),
 	Day(
-		"Axborot xavfsizligi - Lecture\n\xF0\x9F\x95\x90 Time: 13:30\n\xF0\x9F\x9A\xAA Room: 117",
-		"TT va T - (Laboratory/Lecture)\n\xF0\x9F\x95\x90 Time: 15:00\n\xF0\x9F\x9A\xAA Room: 01(B)/518(B)",
-		"TT va T - (Practive)\n\xF0\x9F\x95\x90 Time: 16:30\n\xF0\x9F\x9A\xAA Room: 01(B)/518(B)",
+		"Axborot xavfsizligi - Ma'ruza\n\xF0\x9F\x95\x90 13:30\n\xF0\x9F\x9A\xAA 117",
+		"TT va T - (Laboratoriya/Ma'ruza)\n\xF0\x9F\x95\x90 15:00\n\xF0\x9F\x9A\xAA 01(B)/518(B)",
+		"TT va T - (Mashq)\n\xF0\x9F\x95\x90 16:30\n\xF0\x9F\x9A\xAA 01(B)/518(B)",
 		
 	
 	)
