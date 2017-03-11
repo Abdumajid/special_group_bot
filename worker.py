@@ -1,15 +1,9 @@
-import os
+from apscheduler.schedulers.blocking import BlockingScheduler
+import urllib2
+sched = BlockingScheduler()
 
-import redis
-from rq import Worker, Queue, Connection
+@sched.scheduled_job('interval', minutes=10)
+def timed_job():
+    response = urllib2.urlopen("http://special-group.herokuapp.com")
 
-listen = ['high', 'default', 'low']
-
-redis_url = os.getenv('REDISTOGO_URL', 'redis://localhost:6379')
-
-conn = redis.from_url(redis_url)
-
-if __name__ == '__main__':
-    with Connection(conn):
-        worker = Worker(map(Queue, listen))
-        worker.work()
+sched.start()
