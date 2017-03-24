@@ -51,7 +51,7 @@ weekdays = [
 		"OYDT - Mashq (Abdurahimov Qudrat)\n\xF0\x9F\x95\x90 11:30\n\xF0\x9F\x9A\xAA 520(B)",
 	),
 	Day(
-		"MKUDV - (Laboratoriya/Mashq) (Abdurahimov Qudrat)\n\xF0\x9F\x95\x90 11:30\n\xF0\x9F\x9A\xAA 21(B)",
+		"DTADTK (Boboyev Lochin)\n\xF0\x9F\x95\x90 11:30\n\xF0\x9F\x9A\xAA 21(B)",
 		"Chet tili/O'zbekiston Tarixi - /Ma'ruza\n\xF0\x9F\x95\x90 13:30\n\xF0\x9F\x9A\xAA 445",
 		"WEB ilovalarni ishlab chiqish - Ma'ruza (Kerimov K)\n\xF0\x9F\x95\x90 15:00\n\xF0\x9F\x9A\xAA 522(B)"
 	),
