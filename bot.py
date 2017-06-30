@@ -11,12 +11,11 @@ bot = telebot.TeleBot(config.TOKEN)
 
 @bot.message_handler(commands = ['start'])
 def start(message):
-	bot.send_message(message.chat.id, text = "Xush kelibsiz!", reply_markup = markups.time_table_markup)
-
+	bot.send_message(message.chat.id, text = "Xush kelibsiz!")
+	bot.send_message(message.chat.id, text = "Kanikulda mazza qilib dam oling!")
 @bot.message_handler(commands = ['help'])
 def help(message):
-	caption = "Can I help you?\nPlease choose one of the weekdays from the menu below \xE2\xAC\x87"
-	bot.send_photo(message.chat.id, "https://thumb9.shutterstock.com/display_pic_with_logo/3075959/269077082/stock-photo-two-hands-helping-hand-to-a-friend-269077082.jpg", caption = caption)
+	bot.send_message(message.chat.id, text = "Kanikulda mazza qilib dam oling!")
 
 @bot.message_handler(func = lambda message: message.text in markups.days)
 def show_table(message):
