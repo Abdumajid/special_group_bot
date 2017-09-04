@@ -12,7 +12,8 @@ bot = telebot.TeleBot(config.TOKEN)
 @bot.message_handler(commands = ['start'])
 def start(message):
 	bot.send_message(message.chat.id, text = "Xush kelibsiz!")
-	bot.send_message(message.chat.id, text = "Kanikulda mazza qilib dam oling!")
+	text = "Jadval juda xira ekan, tiniqrog'i bo'lsa tashlab yuboring iltimos!"
+	bot.send_message(message.chat.id, text = text)
 @bot.message_handler(commands = ['help'])
 def help(message):
 	bot.send_message(message.chat.id, text = "Kanikulda mazza qilib dam oling!")
